@@ -34,7 +34,7 @@ if not st.session_state["logged_in"]:
         pwd = st.text_input("Password", type="password", label_visibility="collapsed", placeholder="Masukkan Password...")
         
         if st.button("Buka Dasbor", use_container_width=True):
-            if pwd == "naka123":  # Ganti "naka123" dengan password rahasia klien
+            if pwd == "hd123":  #password rahasia klien
                 st.session_state["logged_in"] = True
                 st.rerun()
             else:
