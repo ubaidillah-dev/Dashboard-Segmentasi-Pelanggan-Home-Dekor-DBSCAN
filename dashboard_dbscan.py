@@ -12,7 +12,7 @@ from sklearn.neighbors import NearestNeighbors
 st.set_page_config(
     page_title="Segmentasi Pelanggan Home Decor (DBSCAN)",
     layout="wide",
-    page_icon="📊",
+    page_icon="",
     initial_sidebar_state="expanded"
 )
 
